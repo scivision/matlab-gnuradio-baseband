@@ -12,8 +12,8 @@ REQUIRES non-free Matlab toolboxes including:
 ## Usage
 
 1. record 20 MHz wide WiFi channel with SDR and GNU Radio, save to .bin file in complex 32-bit float
-2. use `bin2bb()` to convert .bin to Matlab .bb
-3. use decode_wifi_beacom.com to display WiFi SSID beacons
+2. use bin2bb.m to convert .bin to Matlab .bb
+3. use decode_wifi_beacom.m to display WiFi SSID beacons
 
 
 ## Note
